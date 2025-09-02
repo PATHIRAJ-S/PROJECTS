@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    
+    
+  }
+  .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+   border: none;
+   background-image: url(https://ln.run/kTZb_);
+   
+  border-radius: 30px;
+}
+input{
+  font-size: 30px;
+  border-radius: 10px;
+  border: none;
+}
